@@ -3,6 +3,7 @@ package utils
 import "fmt"
 
 func PrintAll(header string, list []string) {
+	fmt.Println("----------------------------------")
 	result := header + "\n\n"
 
 	for i := 0; i < len(list); i++ {
@@ -10,5 +11,6 @@ func PrintAll(header string, list []string) {
 		result += line
 	}
 
-	fmt.Print(result)
+	fmt.Println(result)
+	fmt.Println("----------------------------------")
 }
