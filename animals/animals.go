@@ -1,23 +1,15 @@
 package animals
 
 import (
-	"fmt"
+	"github.com/at-emp-257/names/utils"
 )
 
-var people = []string{
+var animals = []string{
 	"anaconda",
 	"bear",
 	"cat",
 }
 
 func PrintAll() {
-	result := "Printing animals\n\n"
-
-	for i := 0; i < len(people); i++ {
-		line := fmt.Sprintf("%d. %s\n", i + 1, people[i])
-		result += line
-	}
-
-	fmt.Print(result)
+	utils.PrintAll("Printing animals", animals)
 }
-

@@ -1,22 +1,15 @@
 package fruits
 
 import (
-	"fmt"
+	"github.com/at-emp-257/names/utils"
 )
 
-var people = []string{
+var fruits = []string{
 	"apple",
 	"banana",
 	"cucumber",
 }
 
 func PrintAll() {
-	result := "Printing fruits.\n\n"
-
-	for i := 0; i < len(people); i++ {
-		line := fmt.Sprintf("%d. %s\n", i + 1, people[i])
-		result += line
-	}
-
-	fmt.Print(result)
+	utils.PrintAll("Printing fruits", fruits)
 }
