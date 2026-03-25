@@ -11,7 +11,7 @@ var people = []string{
 }
 
 func PrintAll() {
-	result := ""
+	result := "Printing animals\n\n"
 
 	for i := 0; i < len(people); i++ {
 		line := fmt.Sprintf("%d. %s\n", i + 1, people[i])
