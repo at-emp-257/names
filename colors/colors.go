@@ -10,6 +10,6 @@ var colors = []string{
 	"cyan",
 }
 
-func PrintAll() {
+func List() {
 	utils.PrintAll("Printing colors", colors)
 }

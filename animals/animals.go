@@ -10,6 +10,6 @@ var animals = []string{
 	"cat",
 }
 
-func PrintAll() {
+func List() {
 	utils.PrintAll("Printing animals", animals)
 }

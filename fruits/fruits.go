@@ -10,6 +10,6 @@ var fruits = []string{
 	"cucumber",
 }
 
-func PrintAll() {
+func List() {
 	utils.PrintAll("Printing fruits", fruits)
 }
